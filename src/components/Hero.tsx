@@ -16,10 +16,10 @@ const Hero = () => {
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-grid-white/10" />
       </div>
-      
+
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between max-w-6xl mx-auto">
-          
+
           {/* Content */}
           <div className="flex-1 text-center lg:text-left mb-12 lg:mb-0 lg:pr-12">
             <div className="animate-fade-in">
@@ -27,16 +27,16 @@ const Hero = () => {
                 Shubham
                 <span className="block text-accent">Gupta</span>
               </h1>
-              
+
               <div className="text-xl lg:text-2xl text-primary-foreground/90 mb-4 font-medium">
-                Commerce Graduate | Future Finance Leader
+                Commerce  | Future Finance Leader
               </div>
-              
+
               <div className="text-lg text-primary-foreground/80 mb-8 max-w-xl mx-auto lg:mx-0">
-                Passionate about transforming businesses through strategic financial analysis, 
+                Passionate about transforming businesses through strategic financial analysis,
                 corporate governance, and data-driven decision making.
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
                 <Button
                   size="lg"
@@ -50,13 +50,14 @@ const Hero = () => {
                   variant="outline"
                   size="lg"
                   onClick={() => scrollToSection('contact')}
-                  className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 backdrop-blur-sm"
+                  className="border-gray-400 text-gray-700 hover:bg-gray-100 hover:text-gray-900 backdrop-blur-sm"
                 >
                   <Mail className="w-5 h-5 mr-2" />
                   Get in Touch
                 </Button>
+
               </div>
-              
+
               {/* Social Links */}
               <div className="flex gap-4 justify-center lg:justify-start">
                 <a
@@ -78,7 +79,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          
+
           {/* Profile Image */}
           <div className="flex-shrink-0 animate-scale-in">
             <div className="relative">
@@ -95,7 +96,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Scroll Indicator */}
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <button

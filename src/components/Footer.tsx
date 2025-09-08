@@ -53,7 +53,7 @@ const Footer = () => {
               Shubham Gupta
             </h3>
             <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-              Commerce Graduate passionate about finance, business strategy, and 
+              Commerce and accounting passionate about finance, business strategy, and 
               transforming organizations through analytical excellence.
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
@@ -108,10 +108,10 @@ const Footer = () => {
               <div>
                 <p className="text-primary-foreground/60 text-sm mb-1">Phone</p>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+91 96545 21125"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
-                  +91 9876543210
+                  +91 96545 21125
                 </a>
               </div>
               <div>

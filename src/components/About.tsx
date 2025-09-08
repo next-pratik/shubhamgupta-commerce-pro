@@ -52,7 +52,7 @@ const About = () => {
                   
                   <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
                     <p>
-                      As a commerce graduate with a deep-rooted passion for finance and business strategy, 
+                      As a commerce student with a deep-rooted passion for finance and business strategy, 
                       I bring a unique blend of analytical rigor and creative problem-solving to every challenge.
                     </p>
                     

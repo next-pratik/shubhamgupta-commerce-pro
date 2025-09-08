@@ -5,9 +5,9 @@ import { GraduationCap, Award, BookOpen, Calendar } from 'lucide-react';
 const Education = () => {
   const educationData = [
     {
-      degree: 'Bachelor of Commerce (B.Com)',
-      institution: 'Delhi University',
-      duration: '2020 - 2023',
+      degree: 'Bachelor of Commerce ',
+      institution: ' ',
+      duration: '2025 - 2028',
       grade: 'First Class with Distinction',
       percentage: '85.2%',
       highlights: [
@@ -20,7 +20,7 @@ const Education = () => {
     {
       degree: 'Higher Secondary Certificate',
       institution: 'Central Board of Secondary Education',
-      duration: '2018 - 2020',
+      duration: '2024 - 2026',
       grade: 'Commerce Stream',
       percentage: '92.8%',
       highlights: [
